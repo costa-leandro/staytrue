@@ -1,0 +1,331 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom, #252424, #302f2f, #3b3b3b, #474747, #535353);
+    background-image: url(../images/moutain_1_2.png);
+    background-size: cover;
+   
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1f1f; /* Cor de fundo do header, ajuste conforme desejado */
+    color: #fff; /* Cor do texto do header, ajuste conforme desejado */
+    padding: 10px; /* Espaçamento interno do header, ajuste conforme desejado */
+    z-index: 9999; /* Certifica-se de que o header esteja acima de outros elementos */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
+  .hero-section {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    height: 500px;
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  
+
+ /* styles.css */
+
+/* Resto do seu CSS... */
+
+/* Estilos CSS para o parágrafo com a frase de digitação */
+.typed-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; /* Tamanho da fonte para dispositivos móveis */
+    font-weight: bold;
+    color: #e46821; 
+    animation: fade-in 1s ease-in-out;
+    display: inline-block;
+    width: 450px; /* Defina a largura fixa para o .typed-paragraph */
+    height: 30px; /* Defina a altura fixa para o .typed-paragraph */
+    overflow: hidden; /* Oculta o texto que ultrapassa a largura */
+    vertical-align: middle; /* Alinha o texto verticalmente */
+    margin: 0%;
+
+  }
+  .typed-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #e46821; 
+    animation: fade-in 1s ease-in-out;
+    display: inline-block;
+    width: 450px; /* Defina a largura fixa para o .typed-paragraph */
+    height: 100px; /* Defina a altura fixa para o .typed-paragraph */
+    vertical-align: middle; /* Alinha o texto verticalmente */
+    margin-top: 0;
+  }
+ 
+
+
+  /* Animação para o fade-in da frase de digitação */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  .footer {
+    background-color: #1e1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+/* Estilos CSS para a seção "Sobre Nós" */
+.about-section-wrapper {
+  margin-top: 100px;
+  height: 620px;
+  background-image: linear-gradient(to right bottom, #eb650f, #da4e57, #ab5377, #745874, #535353);
+  position: relative;
+  overflow: auto;
+  margin-bottom: none;
+  border-radius: 2%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to bottom, #c4713c, #ac6140, #915340, #75473e, #583c39, #493639, #393034, #2b2a2b, #272728, #242525, #212222, #1e1f1f);
+}
+
+
+.about-section {
+  text-align: center;
+  color: #fff;
+}
+
+.about-title{
+  font-size: 2rem;
+}
+.about-text{
+  padding: 1.2rem;
+}
+
+/* Estilos CSS para os membros da equipe */
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /*Sombra */
+}
+
+.team-member .member-description {
+  text-align: left;
+}
+
+/* Estilos CSS para o elemento .typed-text */
+
+
+/* Estilos CSS para o quadrado de fundo */
+.background-square {
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Ajusta a posição do quadrado */
+  width: 100%; /* O quadrado ocupa toda a largura da div */
+  height: 100%; /* O quadrado ocupa toda a altura da div */
+  background-color: #333;
+  border-radius: 20px;
+  z-index: -1;
+}
+.news{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: flex; /* Centraliza verticalmente e horizontalmente */
+  flex-direction: column; /* Alinha o conteúdo verticalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  margin-top: 100px;
+}
+.news-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #e46821;
+  font-size: 3rem; /* Ajuste o tamanho da fonte conforme necessário */
+  margin: 0; /* Remove as margens padrão do h3 */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+.news-paragraph{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.3rem; /* Ajuste o tamanho da fonte conforme necessário */
+  margin: 0; /* Remove as margens padrão do h3 */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  
+}
+
+/* Estilos CSS para a classe novidades-progress-container */
+.novidades-progress-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Altura da div, ajuste conforme necessário */
+  margin-top: 0px; /* Espaçamento superior para a div que contém a seção "Novidades em breve" e a barra de progresso */
+}
+
+/* Estilos CSS para a classe novidades-em-breve-wrapper */
+.novidades-em-breve-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Altura da div, ajuste conforme necessário */
+}
+
+.novidades-em-breve-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1a1a1a; /* Cor do texto, pode ser ajustada para outra cor */
+  font-size: 1.5rem; /* Tamanho da fonte para a mensagem, ajuste conforme desejado */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 10px; /* Adiciona um espaçamento interno para a mensagem */
+}
+
+/* Estilos CSS para a barra de progresso container */
+.progress-bar-container {
+  position: absolute;
+  width: 400px; /* Largura da div que envolve a barra de progresso, ajuste conforme desejado */
+  height: 16px; /* Altura da div que envolve a barra de progresso, ajuste conforme desejado */
+  margin: 20px auto; /* Centraliza a div horizontalmente e adiciona espaçamento superior */
+  background-color: #f0f0f0; /* Cor do fundo do container, ajuste conforme desejado */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  z-index: 1; /* Certifica-se de que a barra de progresso esteja acima do conteúdo abaixo */
+}
+
+/* Estilos CSS para a barra de progresso */
+.progress-bar {
+  width: 0%; /* Largura inicial da barra de progresso */
+  height: 100%; /* Altura da barra de progresso, ajuste conforme desejado */
+  background-image: linear-gradient(to right, #eb650f, #ec742a, #ed8240, #ed8f55, #ec9c69);
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos CSS para o texto de progresso */
+.progress-text {
+  position: relative;
+  text-align: center;
+  bottom: -10px; /* Posiciona o texto abaixo da barra de progresso */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+  margin-top: none;
+}
+
+.spacer {
+  height: 40px; /* Defina o tamanho do espaço conforme desejado */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Divide o site em três partes usando scroll snap */
+.fake-body {
+  scroll-snap-type: y mandatory;
+}
+
+.container,
+.about-section-wrapper,
+.news {
+  scroll-snap-align: start;
+}
+
+.about-section-wrapper::-webkit-scrollbar {
+  width: 0.5rem; /* Largura da barra de rolagem */
+}
+
+.about-section-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0); /* Define a cor da parte arrastada da barra de rolagem como transparente */
+}
+
+.about-section-wrapper {
+  /* Defina a altura máxima da div para habilitar a barra de rolagem somente quando necessário */
+  max-height: 600px;
+  overflow-y: auto; /* Adiciona a barra de rolagem somente na direção vertical */
+}
+
+.about-section-wrapper {
+  /* Defina a altura máxima da div para habilitar a barra de rolagem somente quando necessário */
+  max-height: 600px;
+  overflow-y: auto; /* Adiciona a barra de rolagem somente na direção vertical */
+}
+
+/* Estiliza a barra de rolagem para a div .about-section-wrapper */
+.about-section-wrapper {
+  /* Defina a altura máxima da div para habilitar a barra de rolagem somente quando necessário */
+  max-height: 600px;
+  overflow-y: auto; /* Adiciona a barra de rolagem somente na direção vertical */
+}
+
+/* Estiliza a barra de rolagem para a div .about-section-wrapper */
+.about-section-wrapper {
+  /* Defina a altura máxima da div para habilitar a barra de rolagem somente quando necessário */
+  max-height: 600px;
+  overflow-y: auto; /* Adiciona a barra de rolagem somente na direção vertical */
+}
+
+/* Estiliza a barra de rolagem para a div .about-section-wrapper */
+.about-section-wrapper {
+  /* Defina a altura máxima da div para habilitar a barra de rolagem somente quando necessário */
+  max-height: 600px;
+  overflow-y: auto; /* Adiciona a barra de rolagem somente na direção vertical */
+}
+
+/* Estiliza a barra de rolagem */
+.about-section-wrapper::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+  background-color: transparent; /* Fundo transparente para a barra de rolagem */
+}
+
+/* Estiliza a parte da barra de rolagem que é arrastada */
+.about-section-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.5); /* Cor da parte arrastada da barra de rolagem com opacidade 0.5 (50%) */
+  border-radius: 4px; /* Borda arredondada para a parte arrastada */
+}
+
+/* Estiliza a parte da barra de rolagem que não está sendo arrastada */
+.about-section-wrapper::-webkit-scrollbar-track {
+  background-color: transparent; /* Fundo transparente para a parte não arrastada da barra de rolagem */
+}
+
+
+
+
+
+/* ... Seu código CSS anterior ... */
+
+
+
+
